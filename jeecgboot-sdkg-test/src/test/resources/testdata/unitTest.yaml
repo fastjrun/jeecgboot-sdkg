@@ -1,0 +1,19 @@
+CodeGServiceTest.testGenerateBundle:
+  - bundleFiles: jeecgboot-codeg/jeecgboot-api.xml
+    moduleName: jeecgboot-codeg/jeecgboot-bundle
+    packagePrefix: com.fastjrun.jeecgboot.
+
+CodeGServiceTest.testGenerateAPI:
+  - bundleFiles: jeecgboot-codeg/jeecgboot-api.xml
+    moduleName: jeecgboot-codeg/jeecgboot-api
+    packagePrefix: com.fastjrun.jeecgboot.
+
+CodeGServiceTest.testGenerateClient:
+  - bundleFiles: jeecgboot-codeg/jeecgboot-api.xml
+    moduleName: jeecgboot-codeg/jeecgboot-client
+    packagePrefix: com.fastjrun.jeecgboot.
+
+CodeGServiceTest.testGenerateBundleMock:
+  - bundleFiles: jeecgboot-codeg/jeecgboot-api.xml
+    moduleName: jeecgboot-codeg/jeecgboot-bundle-mock
+    packagePrefix: com.fastjrun.jeecgboot.
